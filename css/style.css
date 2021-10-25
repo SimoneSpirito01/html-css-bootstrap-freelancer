@@ -3,9 +3,6 @@
 
 /* **** header **** */
 
-header {
-    height: 80px;
-}
 
 /* **** jumbo **** */
 
@@ -31,18 +28,7 @@ main .main_top .container {
 }
 
 .debug header .container {
-    height: 100%;
     background-color: darkorchid;
-}
-
-.debug header .header_left {
-    width: 30%;
-    background-color: blue;
-}
-
-.debug header .header_right {
-    width: 10%;
-    background-color: green;
 }
 
 .debug .jumbo {
@@ -89,7 +75,6 @@ main .main_top .container {
 }
 
 .debug .footer_top {
-    height: 400px;
     background-color: darkslateblue;
 }
 
@@ -100,6 +85,11 @@ main .main_top .container {
 
 .debug footer .container {
     height: 100%;
+    border: 1px solid black;
+}
+
+.debug .footer_top .col {
+    height: 150px;
     border: 1px solid black;
 }
 
