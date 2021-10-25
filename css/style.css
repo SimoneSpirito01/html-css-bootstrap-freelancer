@@ -9,7 +9,15 @@ header {
 
 /* **** jumbo **** */
 
+.jumbo .container {
+    max-width: 500px;
+}
+
 /* **** main **** */
+
+main .container:first-child {
+    max-width: 200px;
+}
 
 /* **** footer **** */
 
@@ -24,7 +32,17 @@ header {
 
 .debug header .container {
     height: 100%;
-    background-color: blueviolet;
+    background-color: darkorchid;
+}
+
+.debug header .header_left {
+    width: 30%;
+    background-color: blue;
+}
+
+.debug header .header_right {
+    width: 10%;
+    background-color: green;
 }
 
 .debug .jumbo {
@@ -35,4 +53,23 @@ header {
 .debug .jumbo .container {
     height: 100%;
     background-color: burlywood;
+}
+
+.debug main {
+    background-color: coral;
+}
+
+.debug .main_top {
+    height: 100px;
+    background-color: darkgrey;
+}
+
+.debug .main_content {
+    background-color: darkmagenta;
+}
+
+.debug .main_content .col {
+    height: 200px;
+    background-color: yellow;
+    border: 1px solid black;
 }
