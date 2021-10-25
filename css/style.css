@@ -15,7 +15,7 @@ header {
 
 /* **** main **** */
 
-main > .container:first-child {
+main .main_top .container {
     max-width: 200px;
 }
 
@@ -64,6 +64,12 @@ main > .container:first-child {
     background-color: darkgrey;
 }
 
+.debug .main_top > .container {
+    height: 100%;
+    border: 1px solid black;
+}
+
+
 .debug .main_content {
     background-color: darkmagenta;
 }
@@ -81,3 +87,19 @@ main > .container:first-child {
 .debug .contact_me {
     background-color: deepskyblue;
 }
+
+.debug .footer_top {
+    height: 400px;
+    background-color: darkslateblue;
+}
+
+.debug .footer_bottom {
+    height: 100px;
+    background-color: slategray;
+}
+
+.debug footer .container {
+    height: 100%;
+    border: 1px solid black;
+}
+
