@@ -1,0 +1,38 @@
+
+
+
+/* **** header **** */
+
+header {
+    height: 80px;
+}
+
+/* **** jumbo **** */
+
+/* **** main **** */
+
+/* **** footer **** */
+
+
+
+
+/* debug */
+
+.debug header {
+    background-color: red;
+}
+
+.debug header .container {
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.debug .jumbo {
+    height: 400px;
+    background-color: aqua;
+}
+
+.debug .jumbo .container {
+    height: 100%;
+    background-color: burlywood;
+}
