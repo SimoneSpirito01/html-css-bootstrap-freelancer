@@ -4,6 +4,19 @@ html {
     font-size: 12px;
 }
 
+.ms-star::before,
+.ms-star::after {
+    content: "";
+    width: 20%;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+
+.ms-black.ms-star::before,
+.ms-black.ms-star::after {
+    border-bottom: 2px solid black;
+}
+
 /* **** header **** */
 
 header {
@@ -21,25 +34,9 @@ header {
     max-width: 180px;
 }
 
-.ms-star::before,
-.ms-star::after {
-    content: "";
-    width: 20%;
-    border-bottom: 2px solid white;
-    display: inline-block;
-}
-
 /* **** main **** */
 
 /* main top */
-
-.main_top .ms-star::before,
-.main_top .ms-star::after {
-    content: "";
-    width: 20%;
-    border-bottom: 2px solid black;
-    display: inline-block;
-}
 
 /* main content */
 
@@ -62,7 +59,20 @@ section.about {
     border: 1px solid white;
 }
 
+/* sezione contact me */
 
+.contact_me form > div:not(:last-child) {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.contact_me input, .contact_me textarea {
+    width: 100%;
+    border: none;
+}
+
+.contact_me .btn_green {
+    background-color: #1abc9c;
+}
 
 /* **** footer **** */
 
@@ -121,9 +131,9 @@ section.about {
     background-color: deeppink;
 } */
 
-.debug .contact_me {
+/* .debug .contact_me {
     background-color: deepskyblue;
-}
+} */
 
 .debug .footer_top {
     background-color: darkslateblue;
