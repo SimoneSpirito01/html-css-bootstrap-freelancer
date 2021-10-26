@@ -41,9 +41,24 @@ header,
 
 /* main content */
 
+.main_content .box {
+    position: relative;
+    cursor: pointer;
+}
+
 .main_content img {
     width: 100%;
     display: block;
+}
+
+.main_content .ms_layover{
+    background-color: rgba(0, 219, 255, 0.61);
+    display: none;
+}
+
+.main_content .ms_plus {
+    font-size: 6rem;
+    display: none;
 }
 
 /* sezione about */
@@ -111,6 +126,11 @@ section.about {
 
 .download_button .btn_white:hover {
     border: 2px solid white;
+}
+
+.main_content .box:hover .ms_layover,
+.main_content .box:hover .ms_plus {
+    display: block;
 }
 
 /* debug */
