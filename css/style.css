@@ -76,6 +76,24 @@ section.about {
 
 /* **** footer **** */
 
+/* footer top */
+
+.footer_top p {
+    font-size: 0.8rem;
+}
+
+.footer_top .ms_social {
+    width: 35px;
+    border: 1px solid white;
+}
+
+.footer_top .ms_social i {
+    padding: 10px;
+}
+
+.footer_top p span {
+    color: #26978a;
+}
 
 /* effetti hover */
 
