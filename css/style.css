@@ -93,6 +93,7 @@ section.about {
 }
 
 .footer_top .ms_social i {
+    cursor: pointer;
     padding: 10px;
 }
 
