@@ -8,13 +8,14 @@ html {
 .ms-star::after {
     content: "";
     width: 20%;
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid white;
+    border-radius: 25px;
     display: inline-block;
 }
 
 .ms-black.ms-star::before,
 .ms-black.ms-star::after {
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
 }
 
 /* **** header **** */
