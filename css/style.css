@@ -19,7 +19,8 @@ html {
 
 /* **** header **** */
 
-header {
+header,
+.footer_bottom {
     background-color: #2c3e50;
 }
 
@@ -78,8 +79,12 @@ section.about {
 
 /* footer top */
 
+.footer_top {
+    background-color: #3a546d;
+}
+
 .footer_top p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .footer_top .ms_social {
@@ -93,6 +98,12 @@ section.about {
 
 .footer_top p span {
     color: #26978a;
+}
+
+/* footer bottom */
+
+.footer_bottom span {
+    font-size: 0.7rem;
 }
 
 /* effetti hover */
@@ -153,22 +164,22 @@ section.about {
     background-color: deepskyblue;
 } */
 
-.debug .footer_top {
+/* .debug .footer_top {
     background-color: darkslateblue;
-}
+} */
 
-.debug .footer_bottom {
+/* .debug .footer_bottom {
     height: 100px;
     background-color: slategray;
-}
+} */
 
-.debug footer .container {
+/* .debug footer .container {
     height: 100%;
     border: 1px solid black;
-}
+} */
 
-.debug .footer_top .col {
+/* .debug .footer_top .col {
     height: 150px;
     border: 1px solid black;
-}
+} */
 
