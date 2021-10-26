@@ -54,6 +54,13 @@ main .ms-star::after {
     display: inline-block;
 }
 
+/* main content */
+
+.main_content img {
+    width: 100%;
+    display: block;
+}
+
 
 
 /* **** footer **** */
@@ -95,7 +102,7 @@ main .ms-star::after {
 } */
 
 
-.debug .main_content {
+/* .debug .main_content {
     background-color: darkmagenta;
 }
 
@@ -103,7 +110,7 @@ main .ms-star::after {
     height: 200px;
     background-color: yellow;
     border: 1px solid black;
-}
+} */
 
 .debug .about {
     background-color: deeppink;
