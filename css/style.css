@@ -37,9 +37,24 @@ header {
 
 /* **** main **** */
 
-main .main_top .container {
-    max-width: 200px;
+/* main top */
+
+
+main .ms-star::before {
+    content: "";
+    width: 20%;
+    border-bottom: 2px solid black;
+    display: inline-block;
 }
+
+main .ms-star::after {
+    content : "";
+    width: 20%;
+    border-bottom: 2px solid black;
+    display: inline-block;
+}
+
+
 
 /* **** footer **** */
 
@@ -65,7 +80,7 @@ main .main_top .container {
     background-color: burlywood;
 } */
 
-.debug main {
+/* .debug main {
     background-color: coral;
 }
 
@@ -77,7 +92,7 @@ main .main_top .container {
 .debug .main_top > .container {
     height: 100%;
     border: 1px solid black;
-}
+} */
 
 
 .debug .main_content {
