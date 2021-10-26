@@ -1,14 +1,14 @@
+/* commons */
+
 html {
     font-size: 12px;
 }
-
 
 /* **** header **** */
 
 header {
     background-color: #2c3e50;
 }
-
 
 /* **** jumbo **** */
 
@@ -21,15 +21,9 @@ header {
     max-width: 180px;
 }
 
-.jumbo .ms-star::before {
+.ms-star::before,
+.ms-star::after {
     content: "";
-    width: 20%;
-    border-bottom: 2px solid white;
-    display: inline-block;
-}
-
-.jumbo .ms-star::after {
-    content : "";
     width: 20%;
     border-bottom: 2px solid white;
     display: inline-block;
@@ -39,16 +33,9 @@ header {
 
 /* main top */
 
-
-main .ms-star::before {
+.main_top .ms-star::before,
+.main_top .ms-star::after {
     content: "";
-    width: 20%;
-    border-bottom: 2px solid black;
-    display: inline-block;
-}
-
-main .ms-star::after {
-    content : "";
     width: 20%;
     border-bottom: 2px solid black;
     display: inline-block;
@@ -61,12 +48,30 @@ main .ms-star::after {
     display: block;
 }
 
+/* sezione about */
+
+section.about {
+    background-color: #1abc9c;
+}
+
+.download_button {
+    height: 35px;
+}
+
+.download_button .btn_white {
+    border: 1px solid white;
+}
+
 
 
 /* **** footer **** */
 
 
+/* effetti hover */
 
+.download_button .btn_white:hover {
+    border: 2px solid white;
+}
 
 /* debug */
 
@@ -112,9 +117,9 @@ main .ms-star::after {
     border: 1px solid black;
 } */
 
-.debug .about {
+/* .debug .about {
     background-color: deeppink;
-}
+} */
 
 .debug .contact_me {
     background-color: deepskyblue;
